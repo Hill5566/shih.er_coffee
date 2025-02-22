@@ -3,7 +3,7 @@
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -33,10 +33,10 @@
             </objects>
             <point key="canvasLocation" x="-135" y="-92"/>
         </scene>
-        <!--深山-->
+        <!--拾貳咖啡-->
         <scene sceneID="nCD-Rc-baH">
             <objects>
-                <viewController storyboardIdentifier="HomeVC" id="24C-1f-L6G" customClass="HomeVC" customModule="RemoteMountainsCafe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="24C-1f-L6G" customClass="HomeVC" customModule="ShihErCoffee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ssm-NK-iAk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,7 +99,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="fd4-DG-A0c" customClass="HomeCollectionCell" customModule="RemoteMountainsCafe" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="fd4-DG-A0c" customClass="HomeCollectionCell" customModule="ShihErCoffee" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="130"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="5NS-hv-1Hx">
@@ -171,7 +171,7 @@
                             <constraint firstItem="BDC-Op-bDx" firstAttribute="trailing" secondItem="K4S-sn-RsM" secondAttribute="trailing" id="jni-sX-G1P"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="深山" id="fcF-QU-2Zo"/>
+                    <navigationItem key="navigationItem" title="拾貳咖啡" id="fcF-QU-2Zo"/>
                     <connections>
                         <outlet property="buildNumberLabel" destination="Hhg-aI-OeE" id="uDg-A7-3cV"/>
                         <outlet property="logView" destination="K4S-sn-RsM" id="jUo-YA-Eks"/>
@@ -185,7 +185,7 @@
         <!--登入-->
         <scene sceneID="M0y-Qe-GDi">
             <objects>
-                <viewController storyboardIdentifier="BossLoginVC" id="u7b-JO-1Py" userLabel="登入" customClass="BossLoginVC" customModule="RemoteMountainsCafe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BossLoginVC" id="u7b-JO-1Py" userLabel="登入" customClass="BossLoginVC" customModule="ShihErCoffee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PGS-of-TCu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -284,7 +284,7 @@
         <!--加入會員-->
         <scene sceneID="y7c-DR-1Rd">
             <objects>
-                <viewController storyboardIdentifier="AddMembershipVC" id="veF-7l-2Ae" customClass="AddMembershipVC" customModule="RemoteMountainsCafe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddMembershipVC" id="veF-7l-2Ae" customClass="AddMembershipVC" customModule="ShihErCoffee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p6O-m4-Rol">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -558,7 +558,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="main_app_icon" width="60" height="60"/>
+        <image name="main_app_icon" width="682.66668701171875" height="682.66668701171875"/>
         <image name="red_dot" width="600" height="600"/>
         <image name="儲值" width="188" height="200"/>
     </resources>

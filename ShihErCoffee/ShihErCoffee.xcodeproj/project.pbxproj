@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E9D936672D698CBF007D7EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936662D698CBF007D7EF7 /* AppDelegate.swift */; };
 		E9D936692D698CBF007D7EF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936682D698CBF007D7EF7 /* SceneDelegate.swift */; };
-		E9D936702D698CC2007D7EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D9366F2D698CC2007D7EF7 /* Assets.xcassets */; };
 		E9D936732D698CC2007D7EF7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E9D936722D698CC2007D7EF7 /* Base */; };
 		E9D936802D69A697007D7EF7 /* UIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9367A2D69A696007D7EF7 /* UIManager.swift */; };
 		E9D936812D69A697007D7EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D9367B2D69A696007D7EF7 /* Main.storyboard */; };
@@ -39,6 +38,7 @@
 		E9D936B02D69A6EC007D7EF7 /* MainMembershipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9369A2D69A6EB007D7EF7 /* MainMembershipTableViewCell.swift */; };
 		E9D936B12D69A6EC007D7EF7 /* SystemLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9369B2D69A6EC007D7EF7 /* SystemLogVC.swift */; };
 		E9D936B22D69A6EC007D7EF7 /* TransactionRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9369C2D69A6EC007D7EF7 /* TransactionRecordVC.swift */; };
+		E9D936B42D69B953007D7EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D936B32D69B953007D7EF7 /* Assets.xcassets */; };
 		EB12728B1C5BDC2B4C1A4743 /* Pods_ShihErCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB59A8169A8A705461C8116 /* Pods_ShihErCoffee.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +49,6 @@
 		E9D936632D698CBF007D7EF7 /* ShihErCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShihErCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D936662D698CBF007D7EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9D936682D698CBF007D7EF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E9D9366F2D698CC2007D7EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9D936722D698CC2007D7EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9D936742D698CC2007D7EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9D9367A2D69A696007D7EF7 /* UIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIManager.swift; sourceTree = "<group>"; };
@@ -80,6 +79,7 @@
 		E9D9369A2D69A6EB007D7EF7 /* MainMembershipTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMembershipTableViewCell.swift; sourceTree = "<group>"; };
 		E9D9369B2D69A6EC007D7EF7 /* SystemLogVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemLogVC.swift; sourceTree = "<group>"; };
 		E9D9369C2D69A6EC007D7EF7 /* TransactionRecordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionRecordVC.swift; sourceTree = "<group>"; };
+		E9D936B32D69B953007D7EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +142,7 @@
 				E9D936962D69A6EB007D7EF7 /* GoodExtension.swift */,
 				E9D936862D69A6AC007D7EF7 /* ViewControllers */,
 				E9D936682D698CBF007D7EF7 /* SceneDelegate.swift */,
-				E9D9366F2D698CC2007D7EF7 /* Assets.xcassets */,
+				E9D936B32D69B953007D7EF7 /* Assets.xcassets */,
 				E9D936712D698CC2007D7EF7 /* LaunchScreen.storyboard */,
 				E9D936742D698CC2007D7EF7 /* Info.plist */,
 			);
@@ -238,10 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D936812D69A697007D7EF7 /* Main.storyboard in Resources */,
-				E9D936702D698CC2007D7EF7 /* Assets.xcassets in Resources */,
 				E9D936832D69A697007D7EF7 /* Boss.storyboard in Resources */,
 				E9D936732D698CC2007D7EF7 /* Base in Resources */,
 				E9D936822D69A697007D7EF7 /* Transaction.storyboard in Resources */,
+				E9D936B42D69B953007D7EF7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +469,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShihErCoffee/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "拾貳咖啡";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -500,6 +501,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShihErCoffee/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "拾貳咖啡";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
