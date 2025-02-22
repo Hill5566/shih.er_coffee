@@ -18,11 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let back4appServerUrl = "https://parseapi.back4app.com"
         
 // CAFE_DEBUG
-        let back4appAppId = "goSJOT0KjJ8MRROMLWTeUYiBLjjeuMYfGOwDne9Q"
-        let clientKey = "eZNQth0fpi7hYNyGAgpWAj5XIOtiVrNmlNa7f1CZ"
+//        let back4appAppId = "goSJOT0KjJ8MRROMLWTeUYiBLjjeuMYfGOwDne9Q"
+//        let clientKey = "eZNQth0fpi7hYNyGAgpWAj5XIOtiVrNmlNa7f1CZ"
 // release
-//        let back4appAppId = "useYgqtl8wo8eYAn5IkpeskkhIrN5TZ8KjPPiPc5"
-//        let clientKey = "ZREWL4IJfsZsO8PMabe1VmFQmqP34l2vkPfr3B0k"
+        let back4appAppId = "zlmUu7lK63vKs0moYJedNzfvqlYo7zdLYzArs2Ss"
+        let clientKey = "rKk9z91dzIdzmYW32NzlJ8yVoLd4Cgkg5U2rg0BX"
         
         let config = ParseClientConfiguration {
             $0.applicationId = back4appAppId
