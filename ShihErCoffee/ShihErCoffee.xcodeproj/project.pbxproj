@@ -9,10 +9,36 @@
 /* Begin PBXBuildFile section */
 		E9D936672D698CBF007D7EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936662D698CBF007D7EF7 /* AppDelegate.swift */; };
 		E9D936692D698CBF007D7EF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936682D698CBF007D7EF7 /* SceneDelegate.swift */; };
-		E9D9366B2D698CBF007D7EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9366A2D698CBF007D7EF7 /* ViewController.swift */; };
-		E9D9366E2D698CBF007D7EF7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E9D9366D2D698CBF007D7EF7 /* Base */; };
 		E9D936702D698CC2007D7EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9D9366F2D698CC2007D7EF7 /* Assets.xcassets */; };
 		E9D936732D698CC2007D7EF7 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E9D936722D698CC2007D7EF7 /* Base */; };
+		E9D936802D69A697007D7EF7 /* UIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9367A2D69A696007D7EF7 /* UIManager.swift */; };
+		E9D936812D69A697007D7EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D9367B2D69A696007D7EF7 /* Main.storyboard */; };
+		E9D936822D69A697007D7EF7 /* Transaction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D9367C2D69A697007D7EF7 /* Transaction.storyboard */; };
+		E9D936832D69A697007D7EF7 /* Boss.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9D9367D2D69A697007D7EF7 /* Boss.storyboard */; };
+		E9D936842D69A697007D7EF7 /* CafeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9367E2D69A697007D7EF7 /* CafeViewController.swift */; };
+		E9D936852D69A697007D7EF7 /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9367F2D69A697007D7EF7 /* UserSetting.swift */; };
+		E9D9369D2D69A6EC007D7EF7 /* MainHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936872D69A6E8007D7EF7 /* MainHeaderTableViewCell.swift */; };
+		E9D9369E2D69A6EC007D7EF7 /* AddNewMembershipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936882D69A6E8007D7EF7 /* AddNewMembershipVC.swift */; };
+		E9D9369F2D69A6EC007D7EF7 /* GoodsIPhoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936892D69A6E9007D7EF7 /* GoodsIPhoneVC.swift */; };
+		E9D936A02D69A6EC007D7EF7 /* StoredVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9368A2D69A6E9007D7EF7 /* StoredVC.swift */; };
+		E9D936A12D69A6EC007D7EF7 /* MembershipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9368B2D69A6E9007D7EF7 /* MembershipVC.swift */; };
+		E9D936A22D69A6EC007D7EF7 /* EditTopUpPlansVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9368C2D69A6E9007D7EF7 /* EditTopUpPlansVC.swift */; };
+		E9D936A32D69A6EC007D7EF7 /* GoodsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9368D2D69A6EA007D7EF7 /* GoodsVC.swift */; };
+		E9D936A42D69A6EC007D7EF7 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9368E2D69A6EA007D7EF7 /* HomeVC.swift */; };
+		E9D936A52D69A6EC007D7EF7 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9368F2D69A6EA007D7EF7 /* ResetPasswordVC.swift */; };
+		E9D936A62D69A6EC007D7EF7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936902D69A6EA007D7EF7 /* LoginVC.swift */; };
+		E9D936A72D69A6EC007D7EF7 /* NewPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936912D69A6EA007D7EF7 /* NewPasswordVC.swift */; };
+		E9D936A82D69A6EC007D7EF7 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936922D69A6EA007D7EF7 /* RegisterVC.swift */; };
+		E9D936A92D69A6EC007D7EF7 /* MembershipDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936932D69A6EA007D7EF7 /* MembershipDetailVC.swift */; };
+		E9D936AA2D69A6EC007D7EF7 /* SpendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936942D69A6EB007D7EF7 /* SpendVC.swift */; };
+		E9D936AB2D69A6EC007D7EF7 /* BankVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936952D69A6EB007D7EF7 /* BankVC.swift */; };
+		E9D936AC2D69A6EC007D7EF7 /* GoodExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936962D69A6EB007D7EF7 /* GoodExtension.swift */; };
+		E9D936AD2D69A6EC007D7EF7 /* CafeTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936972D69A6EB007D7EF7 /* CafeTables.swift */; };
+		E9D936AE2D69A6EC007D7EF7 /* AddMembershipVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936982D69A6EB007D7EF7 /* AddMembershipVC.swift */; };
+		E9D936AF2D69A6EC007D7EF7 /* BossLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D936992D69A6EB007D7EF7 /* BossLoginVC.swift */; };
+		E9D936B02D69A6EC007D7EF7 /* MainMembershipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9369A2D69A6EB007D7EF7 /* MainMembershipTableViewCell.swift */; };
+		E9D936B12D69A6EC007D7EF7 /* SystemLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9369B2D69A6EC007D7EF7 /* SystemLogVC.swift */; };
+		E9D936B22D69A6EC007D7EF7 /* TransactionRecordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9369C2D69A6EC007D7EF7 /* TransactionRecordVC.swift */; };
 		EB12728B1C5BDC2B4C1A4743 /* Pods_ShihErCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EB59A8169A8A705461C8116 /* Pods_ShihErCoffee.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,11 +49,37 @@
 		E9D936632D698CBF007D7EF7 /* ShihErCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShihErCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D936662D698CBF007D7EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9D936682D698CBF007D7EF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E9D9366A2D698CBF007D7EF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E9D9366D2D698CBF007D7EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9D9366F2D698CC2007D7EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9D936722D698CC2007D7EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9D936742D698CC2007D7EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D9367A2D69A696007D7EF7 /* UIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIManager.swift; sourceTree = "<group>"; };
+		E9D9367B2D69A696007D7EF7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E9D9367C2D69A697007D7EF7 /* Transaction.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transaction.storyboard; sourceTree = "<group>"; };
+		E9D9367D2D69A697007D7EF7 /* Boss.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boss.storyboard; sourceTree = "<group>"; };
+		E9D9367E2D69A697007D7EF7 /* CafeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeViewController.swift; sourceTree = "<group>"; };
+		E9D9367F2D69A697007D7EF7 /* UserSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
+		E9D936872D69A6E8007D7EF7 /* MainHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		E9D936882D69A6E8007D7EF7 /* AddNewMembershipVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewMembershipVC.swift; sourceTree = "<group>"; };
+		E9D936892D69A6E9007D7EF7 /* GoodsIPhoneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsIPhoneVC.swift; sourceTree = "<group>"; };
+		E9D9368A2D69A6E9007D7EF7 /* StoredVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoredVC.swift; sourceTree = "<group>"; };
+		E9D9368B2D69A6E9007D7EF7 /* MembershipVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MembershipVC.swift; sourceTree = "<group>"; };
+		E9D9368C2D69A6E9007D7EF7 /* EditTopUpPlansVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTopUpPlansVC.swift; sourceTree = "<group>"; };
+		E9D9368D2D69A6EA007D7EF7 /* GoodsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsVC.swift; sourceTree = "<group>"; };
+		E9D9368E2D69A6EA007D7EF7 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		E9D9368F2D69A6EA007D7EF7 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+		E9D936902D69A6EA007D7EF7 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E9D936912D69A6EA007D7EF7 /* NewPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPasswordVC.swift; sourceTree = "<group>"; };
+		E9D936922D69A6EA007D7EF7 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		E9D936932D69A6EA007D7EF7 /* MembershipDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MembershipDetailVC.swift; sourceTree = "<group>"; };
+		E9D936942D69A6EB007D7EF7 /* SpendVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpendVC.swift; sourceTree = "<group>"; };
+		E9D936952D69A6EB007D7EF7 /* BankVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankVC.swift; sourceTree = "<group>"; };
+		E9D936962D69A6EB007D7EF7 /* GoodExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodExtension.swift; sourceTree = "<group>"; };
+		E9D936972D69A6EB007D7EF7 /* CafeTables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeTables.swift; sourceTree = "<group>"; };
+		E9D936982D69A6EB007D7EF7 /* AddMembershipVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMembershipVC.swift; sourceTree = "<group>"; };
+		E9D936992D69A6EB007D7EF7 /* BossLoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BossLoginVC.swift; sourceTree = "<group>"; };
+		E9D9369A2D69A6EB007D7EF7 /* MainMembershipTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMembershipTableViewCell.swift; sourceTree = "<group>"; };
+		E9D9369B2D69A6EC007D7EF7 /* SystemLogVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemLogVC.swift; sourceTree = "<group>"; };
+		E9D9369C2D69A6EC007D7EF7 /* TransactionRecordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionRecordVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +133,48 @@
 			isa = PBXGroup;
 			children = (
 				E9D936662D698CBF007D7EF7 /* AppDelegate.swift */,
+				E9D9367D2D69A697007D7EF7 /* Boss.storyboard */,
+				E9D9367E2D69A697007D7EF7 /* CafeViewController.swift */,
+				E9D9367B2D69A696007D7EF7 /* Main.storyboard */,
+				E9D9367C2D69A697007D7EF7 /* Transaction.storyboard */,
+				E9D9367A2D69A696007D7EF7 /* UIManager.swift */,
+				E9D9367F2D69A697007D7EF7 /* UserSetting.swift */,
+				E9D936962D69A6EB007D7EF7 /* GoodExtension.swift */,
+				E9D936862D69A6AC007D7EF7 /* ViewControllers */,
 				E9D936682D698CBF007D7EF7 /* SceneDelegate.swift */,
-				E9D9366A2D698CBF007D7EF7 /* ViewController.swift */,
-				E9D9366C2D698CBF007D7EF7 /* Main.storyboard */,
 				E9D9366F2D698CC2007D7EF7 /* Assets.xcassets */,
 				E9D936712D698CC2007D7EF7 /* LaunchScreen.storyboard */,
 				E9D936742D698CC2007D7EF7 /* Info.plist */,
 			);
 			path = ShihErCoffee;
+			sourceTree = "<group>";
+		};
+		E9D936862D69A6AC007D7EF7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9D936982D69A6EB007D7EF7 /* AddMembershipVC.swift */,
+				E9D936882D69A6E8007D7EF7 /* AddNewMembershipVC.swift */,
+				E9D936952D69A6EB007D7EF7 /* BankVC.swift */,
+				E9D936992D69A6EB007D7EF7 /* BossLoginVC.swift */,
+				E9D936972D69A6EB007D7EF7 /* CafeTables.swift */,
+				E9D9368C2D69A6E9007D7EF7 /* EditTopUpPlansVC.swift */,
+				E9D936892D69A6E9007D7EF7 /* GoodsIPhoneVC.swift */,
+				E9D9368D2D69A6EA007D7EF7 /* GoodsVC.swift */,
+				E9D9368E2D69A6EA007D7EF7 /* HomeVC.swift */,
+				E9D936902D69A6EA007D7EF7 /* LoginVC.swift */,
+				E9D936872D69A6E8007D7EF7 /* MainHeaderTableViewCell.swift */,
+				E9D9369A2D69A6EB007D7EF7 /* MainMembershipTableViewCell.swift */,
+				E9D936932D69A6EA007D7EF7 /* MembershipDetailVC.swift */,
+				E9D9368B2D69A6E9007D7EF7 /* MembershipVC.swift */,
+				E9D936912D69A6EA007D7EF7 /* NewPasswordVC.swift */,
+				E9D936922D69A6EA007D7EF7 /* RegisterVC.swift */,
+				E9D9368F2D69A6EA007D7EF7 /* ResetPasswordVC.swift */,
+				E9D936942D69A6EB007D7EF7 /* SpendVC.swift */,
+				E9D9368A2D69A6E9007D7EF7 /* StoredVC.swift */,
+				E9D9369B2D69A6EC007D7EF7 /* SystemLogVC.swift */,
+				E9D9369C2D69A6EC007D7EF7 /* TransactionRecordVC.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +237,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D936812D69A697007D7EF7 /* Main.storyboard in Resources */,
 				E9D936702D698CC2007D7EF7 /* Assets.xcassets in Resources */,
+				E9D936832D69A697007D7EF7 /* Boss.storyboard in Resources */,
 				E9D936732D698CC2007D7EF7 /* Base in Resources */,
-				E9D9366E2D698CBF007D7EF7 /* Base in Resources */,
+				E9D936822D69A697007D7EF7 /* Transaction.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,23 +294,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9D9366B2D698CBF007D7EF7 /* ViewController.swift in Sources */,
+				E9D936AE2D69A6EC007D7EF7 /* AddMembershipVC.swift in Sources */,
 				E9D936672D698CBF007D7EF7 /* AppDelegate.swift in Sources */,
+				E9D936A92D69A6EC007D7EF7 /* MembershipDetailVC.swift in Sources */,
+				E9D936A32D69A6EC007D7EF7 /* GoodsVC.swift in Sources */,
+				E9D936842D69A697007D7EF7 /* CafeViewController.swift in Sources */,
+				E9D936AB2D69A6EC007D7EF7 /* BankVC.swift in Sources */,
+				E9D936AD2D69A6EC007D7EF7 /* CafeTables.swift in Sources */,
+				E9D936A22D69A6EC007D7EF7 /* EditTopUpPlansVC.swift in Sources */,
+				E9D936A82D69A6EC007D7EF7 /* RegisterVC.swift in Sources */,
+				E9D936AA2D69A6EC007D7EF7 /* SpendVC.swift in Sources */,
+				E9D936A72D69A6EC007D7EF7 /* NewPasswordVC.swift in Sources */,
+				E9D936A42D69A6EC007D7EF7 /* HomeVC.swift in Sources */,
 				E9D936692D698CBF007D7EF7 /* SceneDelegate.swift in Sources */,
+				E9D9369D2D69A6EC007D7EF7 /* MainHeaderTableViewCell.swift in Sources */,
+				E9D936AC2D69A6EC007D7EF7 /* GoodExtension.swift in Sources */,
+				E9D936852D69A697007D7EF7 /* UserSetting.swift in Sources */,
+				E9D936B12D69A6EC007D7EF7 /* SystemLogVC.swift in Sources */,
+				E9D9369E2D69A6EC007D7EF7 /* AddNewMembershipVC.swift in Sources */,
+				E9D936B02D69A6EC007D7EF7 /* MainMembershipTableViewCell.swift in Sources */,
+				E9D936A12D69A6EC007D7EF7 /* MembershipVC.swift in Sources */,
+				E9D936A02D69A6EC007D7EF7 /* StoredVC.swift in Sources */,
+				E9D936A52D69A6EC007D7EF7 /* ResetPasswordVC.swift in Sources */,
+				E9D9369F2D69A6EC007D7EF7 /* GoodsIPhoneVC.swift in Sources */,
+				E9D936B22D69A6EC007D7EF7 /* TransactionRecordVC.swift in Sources */,
+				E9D936AF2D69A6EC007D7EF7 /* BossLoginVC.swift in Sources */,
+				E9D936802D69A697007D7EF7 /* UIManager.swift in Sources */,
+				E9D936A62D69A6EC007D7EF7 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E9D9366C2D698CBF007D7EF7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E9D9366D2D698CBF007D7EF7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E9D936712D698CC2007D7EF7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
