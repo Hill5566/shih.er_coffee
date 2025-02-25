@@ -8,6 +8,41 @@
 
 import UIKit
 
+
+extension UIView {
+
+    @IBInspectable var cornerRadius: CGFloat {
+        get {
+            return layer.cornerRadius
+        }
+        set {
+            layer.cornerRadius = newValue
+            layer.masksToBounds = newValue > 0
+        }
+    }
+    
+    @IBInspectable var borderColor: UIColor? {
+        get {
+            return UIColor(cgColor: layer.borderColor ?? UIColor.clear.cgColor)
+        }
+        
+        set {
+            layer.borderColor = newValue?.cgColor
+        }
+    }
+    
+    @IBInspectable var borderWidth: Double {
+        get {
+            return Double(layer.borderWidth)
+        }
+
+        set {
+            layer.borderWidth = CGFloat(newValue)
+        }
+    }
+}
+
+
 extension String {
     
     var isPhoneNumber: Bool {
@@ -80,29 +115,6 @@ extension UITextField {
 
 @IBDesignable
 public class KTextField: UITextField {
-    
-    // MARK: - IBInspectable properties
-    /// Applies border to the text view with the specified width
-    @IBInspectable public var borderWidth: CGFloat = 0.0 {
-        didSet {
-            layer.borderWidth = borderWidth
-            layer.borderColor = borderColor.cgColor
-        }
-    }
-    
-    /// Sets the color of the border
-    @IBInspectable public var borderColor: UIColor = .clear {
-        didSet {
-            layer.borderColor = borderColor.cgColor
-        }
-    }
-    
-    /// Make the corners rounded with the specified radius
-    @IBInspectable public var cornerRadius: CGFloat = 0.0 {
-        didSet {
-            layer.cornerRadius = cornerRadius
-        }
-    }
     
     /// Applies underline to the text view with the specified width
     @IBInspectable public var underLineWidth: CGFloat = 0.0 {

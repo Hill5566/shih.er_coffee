@@ -22,17 +22,9 @@ class SpendVC: CafeViewController {
     var balance:Int = 0
 
     //    var delegate:BankDelegate?
-    
-    @IBOutlet weak var lastSpendTimeLaftLabel: UILabel!
-    
-    @IBOutlet weak var lastSpendTimeLabel: UILabel!
-    
-    @IBOutlet weak var balanceLeftLabel: UILabel!
-    
+        
     @IBOutlet weak var balanceLabel: UILabel!
-    
-    @IBOutlet weak var spendCoinLeftLabel: UILabel!
-    
+    @IBOutlet weak var lastSpendTimeLabel: UILabel!
     @IBOutlet weak var spendCoinTextField: UITextField! {
         didSet {
             spendCoinTextField.layer.borderWidth = 1
@@ -49,10 +41,6 @@ class SpendVC: CafeViewController {
         let memberDetail = transMembershipPFObjectToString(membership: membershipDetail!)
         
         navigationItem.title = memberDetail[Membership.name]
-        
-        setCafeLabel(lastSpendTimeLaftLabel, text: "上次消費時間")
-        setCafeLabel(balanceLeftLabel, text: "餘額")
-        setCafeLabel(spendCoinLeftLabel, text: "消費金額")
         
         spendCoinTextField.tintColor = UIColor.white
         

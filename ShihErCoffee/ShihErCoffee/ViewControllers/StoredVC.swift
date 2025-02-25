@@ -19,11 +19,8 @@ class StoredVC: CafeViewController {
     private var currentPlans:[String] = []
     private var balance:Int = 0
 //    var delegate:BankDelegate?
-    @IBOutlet weak var lastStoredTimeLaftLabel: UILabel!
     @IBOutlet weak var lastStoredTimeLabel: UILabel!
-    @IBOutlet weak var balanceLeftLabel: UILabel!
     @IBOutlet weak var balanceLabel: UILabel!
-    @IBOutlet weak var storedCoinLeftLabel: UILabel!
     @IBOutlet weak var editChargeNumber: UIButton!
     @IBAction func editChargeNumberClick(_ sender: UIButton) {
        
@@ -71,10 +68,6 @@ class StoredVC: CafeViewController {
         lastStoredTimeLabel.text = "尚未"
         
         balanceLabel.text = "0"
-        
-        setCafeLabel(lastStoredTimeLaftLabel, text: "上次儲值時間")
-        setCafeLabel(balanceLeftLabel, text: "餘額")
-        setCafeLabel(storedCoinLeftLabel, text: "儲值金額")
         
         setCafeButton(addButton)
         editChargeNumber.layer.cornerRadius = 4
