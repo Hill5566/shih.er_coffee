@@ -173,7 +173,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BDC-Op-bDx"/>
-                        <color key="backgroundColor" name="6F4E37"/>
+                        <color key="backgroundColor" name="Secondary"/>
                         <constraints>
                             <constraint firstItem="BDC-Op-bDx" firstAttribute="bottom" secondItem="mec-xH-PSJ" secondAttribute="bottom" constant="42" id="0SE-UJ-Lch"/>
                             <constraint firstItem="GIS-Qx-Zua" firstAttribute="centerX" secondItem="ssm-NK-iAk" secondAttribute="centerX" id="1e4-0f-E6Y"/>
@@ -310,7 +310,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Hym-vQ-QIK"/>
-                        <color key="backgroundColor" name="6F4E37"/>
+                        <color key="backgroundColor" name="Secondary"/>
                         <constraints>
                             <constraint firstItem="FwR-9H-ifg" firstAttribute="centerY" secondItem="PGS-of-TCu" secondAttribute="centerY" id="2Bh-5n-2wg"/>
                             <constraint firstItem="mRF-A7-VrM" firstAttribute="centerX" secondItem="PGS-of-TCu" secondAttribute="centerX" id="6AK-wN-ZnO"/>
@@ -623,7 +623,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sN2-5x-ke4"/>
-                        <color key="backgroundColor" name="6F4E37"/>
+                        <color key="backgroundColor" name="Secondary"/>
                         <constraints>
                             <constraint firstItem="EdH-gk-2hD" firstAttribute="leading" secondItem="qvT-Yn-veU" secondAttribute="leading" id="0lM-Zk-reD"/>
                             <constraint firstItem="i4d-D0-Kxy" firstAttribute="centerX" secondItem="ExZ-Lh-nNd" secondAttribute="centerX" id="217-8R-Sdm"/>
@@ -685,7 +685,7 @@
         <image name="main_app_icon" width="682.66668701171875" height="682.66668701171875"/>
         <image name="red_dot" width="600" height="600"/>
         <image name="儲值" width="188" height="200"/>
-        <namedColor name="6F4E37">
+        <namedColor name="Secondary">
             <color red="0.43529411764705883" green="0.30588235294117649" blue="0.21568627450980393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>

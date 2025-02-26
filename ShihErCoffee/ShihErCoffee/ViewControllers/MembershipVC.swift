@@ -90,6 +90,15 @@ class MembershipVC: CafeViewController {
         super.viewDidLoad()
         print("VC", self)
         
+        switch fromWhichFunction {
+        case .stored:
+            break
+        case .spend:
+            view.addGradient(color1: UIColor(named: "Secondary")!, color2: UIColor(named: "Tertiary")!)
+            
+        case .memberData:
+            break
+        }
     }
 
     override func viewWillAppear(_ animated: Bool) {
