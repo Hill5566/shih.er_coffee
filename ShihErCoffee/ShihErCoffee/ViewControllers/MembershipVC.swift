@@ -16,6 +16,7 @@ class MembershipVC: CafeViewController {
         case number, birthday
     }
     private var reverseType: Reverse = .number
+    private var gradientLayer = CAGradientLayer()
     
     @IBOutlet weak var numberOrderButton: UIButton!
     @IBOutlet weak var birthdayOrderButton: UIButton!
@@ -89,20 +90,22 @@ class MembershipVC: CafeViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("VC", self)
-        
-        switch fromWhichFunction {
-        case .stored:
-            break
-        case .spend:
-            view.addGradient(color1: UIColor(named: "Secondary")!, color2: UIColor(named: "Tertiary")!)
-            
-        case .memberData:
-            break
-        }
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
+        
+        gradientLayer.removeFromSuperlayer()
+        
+        switch fromWhichFunction {
+        case .stored:
+            view.backgroundColor = UIColor(named: "Secondary")!
+        case .spend:
+            gradientLayer = view.addGradient(color1: UIColor(named: "Secondary")!, color2: UIColor(named: "Tertiary")!)
+            
+        case .memberData:
+            break
+        }
         
         tabBarController?.tabBar.isHidden = false
         

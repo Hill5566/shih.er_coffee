@@ -227,77 +227,82 @@ extension MembershipDetailVC: UITableViewDelegate, UITableViewDataSource {
         
         if editingStyle == .delete {
             
-            let alert = showLoading()
             
-            guard let recordId = expenses[indexPath.row][Membership.objectId] else {
-                showMessage("資料錯誤", actions: nil)
-                return
-            }
-            
-            guard let expend = expenses[indexPath.row][ExpensesRecord.expend] else {
-                showMessage("資料錯誤", actions: nil)
-                return
-            }
-            
-            guard let deposits = expenses[indexPath.row][ExpensesRecord.deposits] else {
-                showMessage("資料錯誤", actions: nil)
-                return
-            }
-            
-            guard let membershipId = membershipDetail?.objectId else {
-                showMessage("資料錯誤", actions: nil)
-                return
-            }
-            
-            guard let membershipName = membershipDetail?["name"] as? String else {
-                showMessage("資料錯誤", actions: nil)
-                return
-            }
-            
-            var balance:Int = 0
-            
-            if expenses.count <= 1 {
+            showAlertByTwoButton(title: "刪除?", message: nil, leftTitle: "先不要", leftStyle: .cancel, rightTitle: "刪除", rightStyle: .default) { _ in
                 
-                balance = 0
+            } rightAction: { _ in
+                self.deleteRecord(indexPath: indexPath)
+            }
+            
+            
+        }
+    }
+    
+    func deleteRecord(indexPath: IndexPath) {
+        guard let recordId = expenses[indexPath.row][Membership.objectId] else {
+            showMessage("資料錯誤", actions: nil)
+            return
+        }
+        
+        guard let expend = expenses[indexPath.row][ExpensesRecord.expend] else {
+            showMessage("資料錯誤", actions: nil)
+            return
+        }
+        
+        guard let deposits = expenses[indexPath.row][ExpensesRecord.deposits] else {
+            showMessage("資料錯誤", actions: nil)
+            return
+        }
+        
+        guard let membershipId = membershipDetail?.objectId else {
+            showMessage("資料錯誤", actions: nil)
+            return
+        }
+        
+        guard let membershipName = membershipDetail?["name"] as? String else {
+            showMessage("資料錯誤", actions: nil)
+            return
+        }
+        
+        var balance:Int = 0
+        
+        if expenses.count <= 1 {
+            
+            balance = 0
+            
+        } else {
+            
+            guard let balanceString = expenses[1][ExpensesRecord.balance] else {
+                
+                showMessage("資料錯誤", actions: nil)
+                return
+            }
+            
+            guard let balanceInt = Int(balanceString) else {
+                
+                showMessage("資料錯誤", actions: nil)
+                return
+            }
+            
+            balance = balanceInt
+        }
+
+        deleteExpensesRecord(membershipId: membershipId, memberName: membershipName, recordId: recordId, isDeleted: true, deposits: deposits, expend: expend, balance: balance) { (success, error) in
+            
+            if success {
+                
+                self.mBalanceLabel.text = "\(balance)"
+                
+                self.callback?(balance)
+                
+                self.recordDelegate?.deleteComplete(balance: balance)
+                
+                self.expenses.remove(at: indexPath.row)
+                
+                self.mTableView.reloadData()
                 
             } else {
-                
-                guard let balanceString = expenses[1][ExpensesRecord.balance] else {
-                    
-                    showMessage("資料錯誤", actions: nil)
-                    return
-                }
-                
-                guard let balanceInt = Int(balanceString) else {
-                    
-                    showMessage("資料錯誤", actions: nil)
-                    return
-                }
-                
-                balance = balanceInt
-            }
-
-            deleteExpensesRecord(membershipId: membershipId, memberName: membershipName, recordId: recordId, isDeleted: true, deposits: deposits, expend: expend, balance: balance) { (success, error) in
-                
-                alert.dismiss(animated: false, completion: {
-                    
-                    if success {
-                        
-                        self.mBalanceLabel.text = "\(balance)"
-                        
-                        self.callback?(balance)
-                        
-                        self.recordDelegate?.deleteComplete(balance: balance)
-                        
-                        self.expenses.remove(at: indexPath.row)
-                        
-                        self.mTableView.reloadData()
-                        
-                    } else {
-                        
-                        self.showMessage("刪除失敗", actions: nil)
-                    }
-                })
+                self.showMessage("刪除失敗", actions: nil)
             }
         }
     }

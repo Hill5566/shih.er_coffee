@@ -13,7 +13,7 @@ extension UIView {
     func addGradient(color1: UIColor,
                      color2: UIColor,
                      startPoint: CGPoint? = CGPoint(x: 0, y: 0.5),
-                     endPoint: CGPoint? = CGPoint(x: 1, y: 0.5)) {
+                     endPoint: CGPoint? = CGPoint(x: 1, y: 0.5)) -> CAGradientLayer {
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = bounds
         gradientLayer.colors = [color1.cgColor, color2.cgColor]
@@ -24,6 +24,7 @@ extension UIView {
         }
         
         layer.insertSublayer(gradientLayer, at: 0)
+        return gradientLayer
     }
 
     @IBInspectable var cornerRadius: CGFloat {
