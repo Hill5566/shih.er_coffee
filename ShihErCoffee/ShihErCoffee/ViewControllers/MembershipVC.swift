@@ -262,6 +262,8 @@ extension MembershipVC: UITableViewDelegate, UITableViewDataSource {
         let newBirthdayMonthDay = member[Membership.birthdayMonthDay] ?? ""
         if newBirthdayYear.isEmpty, newBirthdayMonthDay.isEmpty {
             cell.newBirthday.text = ""
+        } else if newBirthdayYear.isEmpty {
+            cell.newBirthday.text = newBirthdayMonthDay
         } else {
             cell.newBirthday.text = newBirthdayYear + "/" + newBirthdayMonthDay
         }
